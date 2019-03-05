@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="screen_padding_start">@dimen/screen_margin</dimen>
+    <dimen name="screen_padding_end">@dimen/screen_margin</dimen>
+
+    <!-- Splash Activity -->
+    <dimen name="title_text_size">30sp</dimen>
+
+    <!-- Name Activity -->
+    <dimen name="name_screen_padding_top">50dp</dimen>
+
+    <!-- Coin Activity -->
+    <dimen name="coin_title_margin_bottom">12dp</dimen>
+
+</resources>
