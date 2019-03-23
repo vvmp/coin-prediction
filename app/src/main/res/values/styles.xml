@@ -1,11 +1,125 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="CoinTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CoinTheme.TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox"/>
+    <!-- Cogni text styles -->
+    <style name="CoinTheme.Title">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!--Title text-->
+    <style name="CoinTheme.Title.TextTitle1" parent="CoinTheme.Title">
+        <item name="android:textSize">@dimen/c_text_title_1</item>
+        <item name="android:fontFamily">@font/hknova_extrabold_r</item>
+    </style>
+
+    <style name="CoinTheme.Title.TextTitle2" parent="CoinTheme.Title">
+        <item name="android:textSize">@dimen/c_text_title_2</item>
+        <item name="android:fontFamily">@font/hknova_bold_r</item>
+    </style>
+
+    <style name="CoinTheme.Title.TextTitle3" parent="CoinTheme.Title">
+        <item name="android:textSize">@dimen/c_text_title_3</item>
+        <item name="android:fontFamily">@font/hknova_bold_r</item>
+    </style>
+
+    <style name="CoinTheme.Title.TextTitle4" parent="CoinTheme.Title">
+        <item name="android:textSize">@dimen/c_text_title_4</item>
+        <item name="android:fontFamily">@font/hknova_bold_r</item>
+    </style>
+
+    <style name="CoinTheme.Title.TextTitle5" parent="CoinTheme.Title">
+        <item name="android:textSize">@dimen/c_text_sub_head</item>
+        <item name="android:fontFamily">@font/hknova_bold_r</item>
+    </style>
+
+    <style name="CoinTheme.SubTitle">
+        <item name="android:textSize">@dimen/c_text_caption</item>
+        <item name="android:fontFamily">@font/hknova_bold_r</item>
+    </style>
+
+
+    <!-- Other text styles -->
+    <style name="CoinTheme.SubHead">
+        <item name="android:textSize">@dimen/c_text_sub_head</item>
+        <item name="android:fontFamily">@font/hknova_semibold_r</item>
+    </style>
+
+    <style name="CoinTheme.Head">
+        <item name="android:textSize">@dimen/c_text_head</item>
+        <item name="android:fontFamily">@font/hknova_semibold_r</item>
+    </style>
+
+    <style name="CoinTheme.Head1">
+        <item name="android:textSize">@dimen/c_text_caption</item>
+        <item name="android:fontFamily">@font/hknova_semibold_r</item>
+    </style>
+
+    <style name="CoinTheme.Body">
+        <item name="android:textSize">@dimen/c_text_body</item>
+        <item name="android:fontFamily">@font/hknova_medium_r</item>
+    </style>
+
+    <style name="CoinTheme.Caption">
+        <item name="android:textSize">@dimen/c_text_caption</item>
+        <item name="android:fontFamily">@font/hknova_medium_r</item>
+    </style>
+
+    <style name="CoinTheme.FootNote">
+        <item name="android:textSize">@dimen/c_text_foot_note</item>
+        <item name="android:fontFamily">@font/hknova_medium_r</item>
+    </style>
+
+    <style name="CoinTheme.ActionText" parent="CoinTheme.SubHead">
+        <item name="android:textColor">@color/coinBlue</item>
+    </style>
+
+    <style name="CoinTheme.Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:height">@dimen/c_button_height</item>
+        <item name="android:buttonCornerRadius">@dimen/c_button_corner_radius</item>
+        <item name="android:textSize">@dimen/c_button_text_size</item>
+        <item name="android:fontFamily">@font/hknova_semibold_r</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="CoinTheme.Button.PrimaryButton">
+        <item name="android:background">@drawable/bg_primary_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/hknova_bold_r</item>
+    </style>
+
+    <style name="CoinTheme.Button.DisabledButton">
+        <item name="android:background">@drawable/bg_disabled_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CoinTheme.Button.WarningButton">
+        <item name="android:background">@drawable/button_warning_border</item>
+        <item name="android:textColor">@color/coinOrange_1</item>
+    </style>
+
+    <style name="CoinTheme.Button.SecondarySmall.Important" parent="CoinTheme.Button">
+        <item name="android:background">@drawable/button_secondary_important_border</item>
+        <item name="android:textColor">@color/coinBlue</item>
+    </style>
+
+    <style name="CoinTheme.Button.SecondarySmall.LessImportant" parent="CoinTheme.Button">
+        <item name="android:background">@drawable/button_secondary_less_important_border</item>
+        <item name="android:textColor">@color/coinBlack</item>
+    </style>
+
+    <style name="Coin.FAB" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_marginEnd">@dimen/fab_marginEnd</item>
+        <item name="android:layout_marginBottom">@dimen/fab_marginBottom</item>
     </style>
 
 </resources>

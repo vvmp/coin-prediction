@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#ee6a1b</color>
+    <color name="colorPrimaryDark">#fb6105</color>
+    <color name="colorAccent">#264ca9</color>
+
+    <color name="coinBlue">#5663FF</color>
+    <color name="coinOrange_1">#FD5F00</color>
+    <color name="coinOrange_2">#FB7F35</color>
+    <color name="coinOrange_3">#F89C65</color>
+    <color name="coinRed">#F89C65</color>
+    <color name="coinBlack">#383667</color>
+    <color name="coinGray">#ACA9C5</color>
+    <color name="coinGray_2">#D7D7E1</color>
+    <color name="coinGray_3">#F8FAFF</color>
+    <color name="coinBackground">#FCFDFF</color>
+
 </resources>
