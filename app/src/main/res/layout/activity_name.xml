@@ -27,6 +27,8 @@
         android:layout_below="@id/title"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        app:counterMaxLength="8"
+        app:counterEnabled="true"
         style="@style/CoinTheme.TextInputLayoutStyle"
         android:id="@+id/player_name_1_layout"
         android:layout_width="match_parent"
@@ -42,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:importantForAutofill="no"
+            android:maxLength="8"
             android:inputType="textPersonName"
             tools:targetApi="o"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -51,9 +54,11 @@
         android:layout_below="@id/player_name_1_layout"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        app:counterEnabled="true"
         style="@style/CoinTheme.TextInputLayoutStyle"
         android:id="@+id/player_name_2_layout"
         android:layout_width="match_parent"
+        app:counterMaxLength="8"
         android:layout_height="wrap_content"
         android:hint="@string/hint_player_name_2"
         android:labelFor="@+id/edt_player_name_2"
@@ -64,6 +69,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_player_name_2"
             android:layout_width="match_parent"
+            android:maxLength="8"
             android:layout_height="match_parent"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
