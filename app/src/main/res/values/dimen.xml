@@ -5,6 +5,35 @@
     <dimen name="screen_margin">16dp</dimen>
     <dimen name="screen_padding_start">@dimen/screen_margin</dimen>
     <dimen name="screen_padding_end">@dimen/screen_margin</dimen>
+    <dimen name="fab_marginBottom">@dimen/screen_margin</dimen>
+    <dimen name="fab_marginEnd">@dimen/screen_margin</dimen>
+
+    <!-- Coin text dimen -->
+    <dimen name="c_text_medium">14sp</dimen>
+    <dimen name="c_text_title">30sp</dimen>
+    <dimen name="c_text_safety_amount">26sp</dimen>
+
+    <dimen name="c_text_title_1">30sp</dimen>
+    <dimen name="c_text_title_2">22sp</dimen>
+    <dimen name="c_text_title_3">16sp</dimen>
+    <dimen name="c_text_title_4">14sp</dimen>
+    <dimen name="c_text_sub_head">12sp</dimen>
+    <dimen name="c_text_body">12sp</dimen>
+    <dimen name="c_text_caption">12sp</dimen>
+    <dimen name="c_text_foot_note">10sp</dimen>
+    <dimen name="c_text_head">24sp</dimen>
+
+    <!-- Coin button dimen -->
+    <dimen name="c_button_text_size">12sp</dimen>
+    <dimen name="c_button_height">43dp</dimen>
+    <dimen name="c_button_corner_radius">8dp</dimen>
+    <dimen name="c_button_border_width">1dp</dimen>
+    <dimen name="c_edit_image_size">38dp</dimen>
+    <dimen name="c_play_icon_size">23dp</dimen>
+    <dimen name="c_play_container_padding">58dp</dimen>
+    <dimen name="c_button_max_width">90dp</dimen>
+    <dimen name="c_button_min_height">35dp</dimen>
+    <dimen name="c_button_xmin_height">30dp</dimen>
 
     <!-- Splash Activity -->
     <dimen name="title_text_size">30sp</dimen>

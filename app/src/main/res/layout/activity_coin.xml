@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,12 +18,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/coin_title_margin_bottom"
         android:textSize="@dimen/title_text_size"
-        tools:text="Welcome John!" />
+        tools:text="Welcome John!"/>
 
     <!-- TextInputLayout : Coin count -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_coin_count"
         android:layout_width="match_parent"
+        style="@style/CoinTheme.TextInputLayoutStyle"
         android:layout_height="wrap_content"
         android:hint="@string/hint_coin_count"
         android:labelFor="@+id/edit_text_coin_count"
@@ -31,13 +33,13 @@
         app:hintAnimationEnabled="true">
 
         <!-- EditText : Coin count -->
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_text_coin_count"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:importantForAutofill="no"
             android:inputType="number"
             android:maxLength="3"
-            tools:targetApi="o" />
+            tools:targetApi="o"/>
     </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>
