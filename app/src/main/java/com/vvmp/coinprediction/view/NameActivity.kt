@@ -13,7 +13,9 @@ class NameActivity : AppCompatActivity() {
         setContentView(R.layout.activity_name)
 
         btn_action_next.setOnClickListener {
-            // TODO - Navigate to the game Activity
+            val intent = Intent(this@NameActivity, GameActivity::class.java)
+            startActivity(intent) // Launches the Game screen
+            finish()
         }
     }
 }

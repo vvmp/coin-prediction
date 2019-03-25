@@ -1,7 +1,8 @@
-package com.vvmp.coinprediction
+package com.vvmp.coinprediction.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.vvmp.coinprediction.R
 
 class GameActivity : AppCompatActivity() {
 
