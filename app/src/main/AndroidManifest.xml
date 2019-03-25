@@ -11,8 +11,9 @@
         android:theme="@style/CoinTheme">
         <activity android:name=".GameActivity">
         </activity>
-        <activity android:name=".view.CoinActivity"/>
-        <activity android:name=".view.NameActivity"/>
+        <activity
+            android:name=".view.NameActivity"
+            android:windowSoftInputMode="adjustResize"/>
         <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
