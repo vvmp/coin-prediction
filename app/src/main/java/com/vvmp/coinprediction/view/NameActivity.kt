@@ -15,23 +15,22 @@ class NameActivity : AppCompatActivity() {
 
         btn_action_next.setOnClickListener {
             val intent = Intent(this@NameActivity, GameActivity::class.java)
-
-            val playerOneName = edt_player_name_1?.text
-            intent.putExtra(Key.PLAYER_ONE_NAME, edt_player_name_1.text)
+            intent.putExtra(Key.PLAYER_ONE_NAME, getPlayerOneName())
+            intent.putExtra(Key.PLAYER_TWO_NAME, getPlayerTwoName())
             startActivity(intent) // Launches the Game screen
             finish()
         }
     }
 
-    fun getPlayerOneName(): String {
+    private fun getPlayerOneName(): String {
         var name = edt_player_name_1?.text?.toString()
-        if (name == null) name = "John";
+        if (name == null) name = "John"
         return name
     }
 
-    fun getPlayerTwoName(): String {
-        var name = edt_player_name_1?.text?.toString()
-        if (name == null) name = "Jack";
+    private fun getPlayerTwoName(): String {
+        var name = edt_player_name_2?.text?.toString()
+        if (name == null) name = "Jack"
         return name
     }
 }
