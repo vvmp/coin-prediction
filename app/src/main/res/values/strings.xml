@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Coin Prediction</string>
+    <string name="app_name">Coin Toss</string>
 
     <!-- Hints -->
     <string name="hint_name">Enter your name</string>
     <string name="hint_coin_count">Enter coin count</string>
+    <string name="hint_player_name_1">Enter player 1 name</string>
+    <string name="hint_player_name_2">Enter player 2 name</string>
 
     <!-- Helper strings -->
     <string name="helper_coin">Coin count should be less than 100</string>
