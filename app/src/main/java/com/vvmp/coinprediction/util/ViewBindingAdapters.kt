@@ -12,10 +12,9 @@ fun setScoreToEdt(view: TextView, score: Int) {
 
 @BindingAdapter("app:userTurn")
 fun userTurn(view: TextView, viewModel: GameVM) {
-    if (viewModel.playing.value == GameVM.PLAYING_STATE.PLAYER_1) {
+    if (viewModel.playing.value == GameVM.PlayingState.PLAYER_1) {
         view.text = view.context.getString(R.string.player_turn, viewModel.playerOneName)
-    } else if (viewModel.playing.value == GameVM.PLAYING_STATE.PLAYER_2) {
+    } else if (viewModel.playing.value == GameVM.PlayingState.PLAYER_2) {
         view.text = view.context.getString(R.string.player_turn, viewModel.playerOneName)
     }
-
 }

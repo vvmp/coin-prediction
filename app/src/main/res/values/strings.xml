@@ -9,12 +9,16 @@
     <string name="player_turn">%1$s\'s turn</string>
     <string name="action_heads">Heads</string>
     <string name="action_tails">Tails</string>
+    <string name="action_toss">Toss</string>
 
+    <!-- State -->
+    <string name="state_coin_idle">Idle state</string>
+    <string name="state_coin_flipping">Flipping…</string>
     <!-- Helper strings -->
     <string name="helper_coin">Coin count should be less than 100</string>
 
     <!-- Action strings -->
-    <string name="action_next">Next</string>
+    <string name="action_next">Start game</string>
 
     <!-- Coin Screen strings -->
     <string name="welcome_name_template">Welcome %1$s!</string>
